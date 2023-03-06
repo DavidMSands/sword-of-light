@@ -1,0 +1,89 @@
+{
+"skeleton": {
+	"hash": "XNnkHcOxrG8",
+	"spine": "4.1.17",
+	"x": -227.72,
+	"y": 0.99,
+	"width": 453,
+	"height": 476,
+	"images": "/Users/davidsands/Test-sprite/images/",
+	"audio": "/Users/davidsands/Test-sprite"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 483.91, "rotation": 89.2, "x": 0.69, "y": -5.74 }
+],
+"slots": [
+	{ "name": "Layer 1", "bone": "root", "attachment": "Layer 1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Layer 1": {
+				"Layer 1": { "x": -1.22, "y": 238.99, "width": 453, "height": 476 }
+			}
+		}
+	}
+],
+"animations": {
+	"Attack": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				],
+				"shear": [
+					{},
+					{ "time": 0.1667, "y": -37.08 }
+				]
+			}
+		}
+	},
+	"Running": {
+		"bones": {
+			"bone": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				],
+				"shear": [
+					{}
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0.1333, "curve": "stepped" },
+					{ "time": 0.3667 }
+				],
+				"translate": [
+					{ "time": 0.1333 },
+					{ "time": 0.2667, "y": 38.06 },
+					{ "time": 0.3667 }
+				],
+				"scale": [
+					{ "time": 0.0667, "x": 1.082, "y": 0.946 },
+					{ "time": 0.1333 },
+					{ "time": 0.2667, "x": 0.973, "y": 1.054 },
+					{ "time": 0.3667 }
+				],
+				"shear": [
+					{ "time": 0.1333, "curve": "stepped" },
+					{ "time": 0.3667 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,7 @@
+enemy.png
+size:455,478
+filter:Linear,Linear
+pma:true
+Layer 1
+bounds:2,2,451,474
+offsets:1,1,453,476
